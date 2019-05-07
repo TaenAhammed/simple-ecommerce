@@ -1,0 +1,23 @@
+{
+    "name": "simple-ecommerce",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "homepage": "https://taenahammed.github.io/simple-ecommerce",
+    "scripts": {
+        "deploy": "gh-pages -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TaenAhammed/simple-ecommerce.git"
+    },
+    "author": "Taen Ahammed",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/TaenAhammed/simple-ecommerce/issues"
+    },
+    "homepage": "https://github.com/TaenAhammed/simple-ecommerce#readme",
+    "dependencies": {
+        "gh-pages": "^2.0.1"
+    }
+}

@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a.navbar-brand img {
+    height: 30px;
+}
+
+body {
+    background: #efefef;
+}
+
+.home-slider {
+    margin: 30px 0px;
+}
+
+.single-slider {
+    position: relative;
+    height: 600px;
+    width: 100%;
+}
+
+.slide-1 {
+    background: url("../img/slide1.jpg");
+}
+
+.slide-2 {
+    background: url("../img/slide2.jpg");
+}
+
+.slide-3 {
+    background: url("../img/slide3.jpg");
+}
+
+.kids-slide-1 {
+    background: url("../img/kide.jpg");
+}
+
+.kids-slide-2 {
+    background: url("../img/kidq.jpg");
+}
+
+.kids-slide-3 {
+    background: url("../img/kidw.jpg");
+}
+
+.slide-1,
+.slide-2,
+.slide-3 {
+    background-size: cover;
+    background-position: center;
+}
+
+.kids-slide-1,
+.kids-slide-2,
+.kids-slide-3 {
+    background-size: cover;
+    background-position: top;
+}
+
+.offer-section {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    max-width: 500px;
+    padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.offer-section img {
+    height: 150px;
+    left: -75px;
+    top: -75px;
+    position: absolute;
+    width: 150px !important;
+}
+
+.service-section {
+    margin-bottom: 30px;
+}
+
+.single-service {
+    background: #fff;
+    border: 1px solid #e0dddd;
+    padding: 20px;
+}
+
+.service-title {
+    color: #0d80b6;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.hot-week {
+    text-align: center;
+    color: #0d80b6;
+    font-size: 30px;
+    padding: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #fff;
+    border: 1px solid #e0dddd;
+    margin-bottom: 30px;
+}
+
+.hot-week p {
+    color: black;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.hot-dresses {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.kids-slide-text {
+    color: #aa2020;
+    max-width: 400px;
+    font-size: 80px;
+    font-weight: 400;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.topics-section {
+    background: #e0dddd;
+    line-height: 10px;
+    padding: 30px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: #666464;
+    color: #fff;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 50%;
+}
